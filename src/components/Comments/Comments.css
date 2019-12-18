@@ -1,0 +1,101 @@
+.Comments {
+    max-width: 800px;
+    margin: 100px auto 30px;
+    width: 100%;
+}
+
+.Comments-title {
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.Comments-input,
+.Comments-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid #ebebeb;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.Comments-input:focus,
+.Comments-textarea:focus {
+    border: 3px solid #31bf70;
+}
+
+.Comments-textarea {
+    min-height: 80px;
+}
+
+.Comments-button {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background:#31bf70;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.Comments-button:hover,
+.Comments-button:active,
+.Comments-button:focus {
+    background: #3f32ad;
+    transform: translate(0,-5px);
+}
+
+.Comments-elements {
+    text-align: left;
+}
+
+.Comments-ul {
+    margin: 10px 0 50px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.Comments-ul li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    border-bottom: 1px solid;
+}
+
+.Comments-name {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.Comments-text {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.Comments label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.Comments-delete {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Comments-delete:hover,
+.Comments-delete:active,
+.Comments-delete:focus {
+    text-decoration: underline;
+}

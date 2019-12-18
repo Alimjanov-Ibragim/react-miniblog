@@ -1,0 +1,40 @@
+.Note {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+}
+
+.Note-title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.Note-description {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.Note-comments > div {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.Note-name {
+    margin: 0 10px 10px 0;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+@media (max-width: 540px) {
+    .Note-title {
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

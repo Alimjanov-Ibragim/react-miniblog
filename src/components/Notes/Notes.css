@@ -1,0 +1,192 @@
+.Notes {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.Notes h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.Notes-lists {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-bottom: 30px;
+}
+
+.Notes-col {
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding: 0 0 20px 20px;
+}
+
+.Notes-col a {
+    text-decoration: none;
+}
+
+.Notes-list {
+    position: relative;
+    height: 100%;
+    padding: 20px 20px 40px;
+    color: #ffffff;
+    background: #0d4fc7;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Notes-list:hover,
+.Notes-list:active,
+.Notes-list:focus {
+    border-color: transparent;
+    background: #3f32ad;
+    transform: translate(0,-5px);
+}
+
+.Notes-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 1.6s;
+}
+
+.Notes-title:hover,
+.Notes-title:active,
+.Notes-title:focus {
+    text-decoration: underline;
+}
+
+.Notes-shortDesc {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.Notes-countComments {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.Notes-countComments span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    min-width: 35px;
+    padding: 10px;
+    background: rgba(0, 255, 161, 0.7);
+    font-size: 13px;
+}
+
+.Notes-add-title {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.Notes-add-input,
+.Notes-add-textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid #ebebeb;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.Notes-add-input:focus,
+.Notes-add-textarea:focus {
+    border: 3px solid #31bf70;
+}
+
+.Notes-add-textarea {
+    min-height: 60px;
+}
+
+#description.Notes-add-textarea {
+    min-height: 90px;
+}
+
+.Notes-add-button {
+    width: 100%;
+    padding: 11px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background:#31bf70;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.Notes-add-button:hover,
+.Notes-add-button:active,
+.Notes-add-button:focus {
+    background: #3f32ad;
+    transform: translate(0,-5px);
+}
+
+.Notes-add-elements {
+    text-align: left;
+}
+
+.Notes-add label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.Notes-delete {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Notes-delete:hover,
+.Notes-delete:active,
+.Notes-delete:focus {
+    text-decoration: underline;
+}
+
+@media (max-width: 830px) {
+    .Notes-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 540px) {
+    .Notes-lists {
+        display: block;
+    }
+    
+    .Notes-col {
+        max-width: 100%;
+    }
+
+    .Notes h1 {
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
